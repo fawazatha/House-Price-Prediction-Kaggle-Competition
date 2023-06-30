@@ -11,7 +11,7 @@ My approach for solving the house price prediction problem involved the followin
 - Creating Derived Features: I generated new features by combining or transforming existing variables.
 - Encoding Categorical Variables: We utilized the LabelEncoder technique to convert categorical variables into numeric representations. This allowed our models to effectively utilize these variables in the predictive process.
 - Handling Skewed Numeric Variables: Skewed numeric variables can negatively impact the performance of regression models. To address this, i applied techniques such as Boxcox transformation or Log transformation to normalize the distributions of these variables. This helped to mitigate the effects of skewness and improve the linearity assumptions of the models.
-3. In the modeling phase, we explored several regression algorithms and employed hyperparameter tuning to optimize their performance. The algorithms we considered for hyperparameter tuning include:
+3. Modeling: In the modeling phase, we explored several regression algorithms and employed hyperparameter tuning to optimize their performance. The algorithms we considered for hyperparameter tuning include:
 
 - XGBoost: Extreme Gradient Boosting
 - LightGBM: Light Gradient Boosting Machine
