@@ -30,4 +30,5 @@ My approach for solving the house price prediction problem involved the followin
 ## Result
 In the Kaggle House Price Prediction competition, our model achieved impressive results with a RMSE score of 0.11947. This score indicates the accuracy of our predictions in estimating the sales prices of houses.
 The competition evaluation metric, Root-Mean-Squared-Error (RMSE), takes into account the logarithm of the predicted and observed sales prices. This ensures that errors in predicting both expensive and cheap houses have an equal impact on the evaluation, providing a fair assessment of the model's performance. his places us in the top 20% of participants, showcasing the effectiveness and competitiveness of our approach.
+
 ![submission](https://github.com/fawazatha/House-Price-Prediction-Kaggle-Competition-/assets/132468764/0ff340d1-a969-4d62-81c3-28959b818950)
