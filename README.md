@@ -32,3 +32,13 @@ In the Kaggle House Price Prediction competition, our model achieved impressive 
 The competition evaluation metric, Root-Mean-Squared-Error (RMSE), takes into account the logarithm of the predicted and observed sales prices. This ensures that errors in predicting both expensive and cheap houses have an equal impact on the evaluation, providing a fair assessment of the model's performance. his places us in the top 20% of participants, showcasing the effectiveness and competitiveness of our approach.
 
 ![submission](https://github.com/fawazatha/House-Price-Prediction-Kaggle-Competition-/assets/132468764/0ff340d1-a969-4d62-81c3-28959b818950)
+
+## Acknowledgments
+I would like to thank Kaggle for providing the House Prices: Advanced Regression Techniques dataset and competition. I also acknowledge the valuable contributions of the open-source data science community and the authors of the libraries used in this project.
+
+## Contact Information
+For any questions, feedback, suggestions, or collaboration opportunities, please feel free to reach out to:
+Fawwaz Atha Rohmatullah
+fawazzatha@gmail.com
+Linkedln: [https://www.linkedin.com/in/fawwaz-atha-rohmatullah-6ab2b2262/****](https://www.linkedin.com/in/fawwaz-atha-rohmatullah-6ab2b2262/)
+I appreciate your interest in my house price prediction project and hope it provides valuable insights and serves as a useful resource for your own data science endeavors.
