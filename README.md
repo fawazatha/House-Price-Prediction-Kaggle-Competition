@@ -14,7 +14,7 @@ Creating Derived Features: I generated new features by combining or transforming
 Encoding Categorical Variables: We utilized the LabelEncoder technique to convert categorical variables into numeric representations. This allowed our models to effectively utilize these variables in the predictive process.
 Handling Skewed Numeric Variables: Skewed numeric variables can negatively impact the performance of regression models. To address this, i applied techniques such as Boxcox transformation or Log transformation to normalize the distributions of these variables. This helped to mitigate the effects of skewness and improve the linearity assumptions of the models.
 3. In the modeling phase, we explored several regression algorithms and employed hyperparameter tuning to optimize their performance. The algorithms we considered for hyperparameter tuning include:
-   XGBoost: Extreme Gradient Boosting is a powerful gradient boosting algorithm known for its efficiency and high performance.
+   - XGBoost: Extreme Gradient Boosting is a powerful gradient boosting algorithm known for its efficiency and high performance.
    LightGBM: Light Gradient Boosting Machine is another gradient boosting framework that excels in handling large datasets and provides fast training speed.
    Gradient Boosting Regressor (GBR): This algorithm builds an ensemble of weak learners using a gradient boosting technique, achieving impressive predictive capabilities.
    Lasso Regression: Lasso is a linear regression model that incorporates L1 regularization to enhance feature selection and prevent overfitting.
