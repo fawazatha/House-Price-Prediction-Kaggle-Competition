@@ -6,7 +6,7 @@ This Jupyter notebook presents a comprehensive solution to the Kaggle competitio
 ## Dataset Description
 The dataset used for this project is sourced from the Kaggle competition, "House Prices: Advanced Regression Techniques." It comprises a training set and a test set. The training set consists of a diverse range of houses with known sale prices, while the test set includes houses without the sale price information.
 
-## ## Approach
+## Approach
 My approach for solving the house price prediction problem involved the following steps:
 1. Exploratory Data Analysis: I conducted a thorough analysis of the dataset to gain insights into the relationships between the features and the target variable. This involved visualizations, statistical summaries, and correlation analysis.
 2. Feature Engineering: In the feature engineering phase, i employed various techniques to enhance the dataset and improve the predictive power of our models. Some of the key feature engineering steps we performed include:
