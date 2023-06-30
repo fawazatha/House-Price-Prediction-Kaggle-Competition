@@ -9,8 +9,7 @@ The dataset used for this project is sourced from the Kaggle competition, "House
 ## ## Approach
 My approach for solving the house price prediction problem involved the following steps:
 1. Exploratory Data Analysis: I conducted a thorough analysis of the dataset to gain insights into the relationships between the features and the target variable. This involved visualizations, statistical summaries, and correlation analysis.
-2. Feature Engineering: I handled missing data by applying appropriate imputation techniques. My approach to handle missing values involve in the following strategies:
-   • For continuous variables: I replaced missing values with the median value of each category, considering a relevant categorical variable. If a missing value was expected in the variable, I replaced it with 0.
-   • For categorical variables: I examined the distribution of values using the value_counts method. If there were values without negative meanings (such as NA or POOL), I replaced them with None. Additionally, for categorical variables related to specific categories, I identified the distribution of values within 
-     each category and replaced the least common value with a more suitable alternative.
-
+2. Feature Engineering: In the feature engineering phase, i employed various techniques to enhance the dataset and improve the predictive power of our models. Some of the key feature engineering steps we performed include:
+Creating Derived Features: We generated new features by combining or transforming existing variables. This involved techniques such as creating interaction terms, polynomial features, or extracting meaningful information from date or text columns.
+Encoding Categorical Variables: We utilized the LabelEncoder technique to convert categorical variables into numeric representations. This allowed our models to effectively utilize these variables in the predictive process.
+Handling Skewed Numeric Variables: Skewed numeric variables can negatively impact the performance of regression models. To address this, we applied techniques such as Boxcox transformation or Log transformation to normalize the distributions of these variables. This helped to mitigate the effects of skewness and improve the linearity assumptions of the models.
